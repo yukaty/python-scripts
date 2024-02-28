@@ -24,8 +24,8 @@ split_string = re.split(r'@', email)
 print(split_string)
 
 # Text Cleaning 
-# Get only alphabets and spaces (^: not) and convert to lower case
+# Get only alphabets and spaces and convert to lower case 
 text = "HELLO, WORLD! This is a sample text with numbers [123] and special characters [#@&]."
-cleaned_text = re.sub(r'[^a-zA-Z\s]', '', text)
+cleaned_text = re.sub(r'[^a-zA-Z\s]', '', text) # ^: not, a-zA-Z: alphabets, \s: spaces
 cleaned_text = cleaned_text.lower()
 print(cleaned_text)
