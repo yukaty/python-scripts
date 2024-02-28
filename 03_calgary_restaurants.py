@@ -2,8 +2,7 @@ import requests
 from pprint import pprint
 from getpass import getpass
 
-#api_key = getpass("Enter your Google Maps API key: ")
-api_key = "AIzaSyDi-Rmx_PZdXDfca7jr3jNTS_bxauDfu1Q"
+api_key = getpass("Enter your Google Maps API key: ")
 location = "Calgary"
 
 # Google Maps API for geocoding
